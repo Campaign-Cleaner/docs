@@ -51,7 +51,7 @@
   "navigation": [
     {
       "group": "Features & Settings",
-      "pages": ["/features-settings/inboxpreviews", "quickstart", "development"]
+      "pages": ["features-settings/inboxpreviews", "quickstart", "development"]
     },
     {
       "group": "Essentials",
