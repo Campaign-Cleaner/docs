@@ -50,8 +50,8 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Features & Settings",
+      "pages": ["/Features & Settings/inboxpreviews", "quickstart", "development"]
     },
     {
       "group": "Essentials",
