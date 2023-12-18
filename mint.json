@@ -51,7 +51,7 @@
   "navigation": [
     {
       "group": "Features & Settings",
-      "pages": ["features-settings/inboxpreviews", "features-settings/send-previews", "development"]
+      "pages": ["features-settings/inboxpreviews", "features-settings/send-previews", "preheader-management"]
     },
     {
       "group": "Essentials",
