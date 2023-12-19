@@ -50,23 +50,26 @@
   ],
   "navigation": [
     {
+      "group": "Campaign Cleaner",
+      "pages": ["campaign-cleaner/clean-campaing", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings", "campaign-cleaner/saved-campaigns", "campaign-cleaner/import-campaigns"]
+    },
+    {
       "group": "Features & Settings",
-      "pages": ["features-settings/inboxpreviews", "features-settings/send-previews", "preheader-management"]
+      "pages": ["features-settings/inboxpreviews", "features-settings/send-previews", "features-settings/preheader-management","features-settings/font-color-adjustments","features-settings/font-color-adjustments","features-settings/spam-trigger=detection", "features-settings/blacklisted-links","features-settings/font-size-enforcement","image-summary","resize-and-host", "features-settings/link-summary", "features-settings/alt-and-title-attribute-management", "features-settings/html-sanitizer", "features-settings/html-minifier", "features-settings/surrounding-html-div", "features-settings/unsupported-image-dection","features-settings/non-ascii-character-replacement", "features-settings/punctuation-caps-h-tags", "features-settings/html-comment-removal","features-settings/css-inliner", "features-settings/inherited-css-removal", "features-settings/classes-and-id-removal", "features-settings/h-to-p-tag-conversion", "features-settings/control-and-non-printable-characters", "features-settings/html-fragment", "features-settings/diacritics-character-replacement","features-settings/tables-to-divs-conversion","features-settings/background-image-detection", "features-settings/text-to-image-analysis", "features-settings/text-to-link-analysis", "features-settings/poor-deliver-cdn-dectection", "features-settings/set max-width-of-images", "features-settings/height-attribute-removal", "features-settings/large-width-removal"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Management",
+      "pages": ["managment/api", "managment/api-management", "managment/cdn-management"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Integrations",
+      "pages": ["integrations/integrations"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Account Info",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "account-info/manage-users",
+        "account-info/securing-your-account"
       ]
     }
   ],
