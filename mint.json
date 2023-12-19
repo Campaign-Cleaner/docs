@@ -36,7 +36,7 @@
   "navigation": [
     {
       "group": "Campaign Cleaner",
-      "pages": ["campaign-cleaner/clean-campaing", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings","campaign-cleaner/saved-campaigns","campaign-cleaner/import-campaign"]
+      "pages": ["campaign-cleaner/clean-campaign", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings","campaign-cleaner/saved-campaigns","campaign-cleaner/import-campaigns"]
     },
     {
       "group": "Features & Settings",
