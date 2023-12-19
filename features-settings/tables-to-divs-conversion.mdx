@@ -1,4 +1,44 @@
 ---
 title: 'Tables to Divs Conversion'
-description: 'Description of your new file.'
+description: 'Convert HTML tables to DIVS to improve email rendering and accessibility. This technique can improve deliverability, readability, and compatibility across newer email clients and devices.'
 ---
+
+# How does Tables to DIVS Conversion Improve Engagement?
+![html-table-div-2.png](/images/table-div-3.png)
+
+Converting HTML tables to DIVs is a popular technique for optimizing email rendering and accessibility. In email design, tables are often used to create complex layouts, but they can be problematic for several reasons.
+
+Firstly, some email clients may not support tables or may render them incorrectly, resulting in broken or messy layouts. Additionally, tables can be difficult to read for users with screen readers or other assistive technologies, which can negatively impact accessibility.
+
+Converting tables to DIVs can solve these issues by providing a more flexible and accessible layout structure. DIVs are more widely supported across email clients and devices, which means that your email is more likely to display correctly for all recipients.
+
+Furthermore, DIVs provide a more streamlined code structure that is easier to read for both users and search engines. This can also help to improve deliverability by reducing the risk of your email being flagged as spam due to bloated or messy code.
+
+**Here's an example of the conversion:**
+
+**Before:**
+
+![html-table-div-1.png](/images/table-div-1.png)
+
+**After:**
+
+![html-table-div-2.png](/images/table-div-2.png)
+
+This is an experimental feature and may change over time, we are mimicing the table structure as multiple divs with a little padding using css and changing the `display` to `flex`. Your results will vary, we recommend not using the feature as it is experimental. The more complicated the table structure, the less likely the conversion will yield the results you're looking for.
+
+<Warning>
+Some email clients don't support advance functionality with divs, always check and make sure things are displaying correctly in all email clients. This is an expiremental feature, basic tables and divs are generally supported in all mail clients.
+</Warning>
+
+# Use Case to Replace Tables with Divs
+<Note>
+Let's say you're sending a marketing email to your customers, and you want to include a product grid that shows a thumbnail image, product name, and price for each item. Traditionally, you might use a table to structure this content, with each row representing a product and each column representing the thumbnail, name, and price.
+ 
+However, some email clients may not render tables properly, resulting in a distorted or broken layout. Additionally, tables can be difficult to read on mobile devices, where screen real estate is limited.
+ 
+To solve these problems, you can use divs instead of tables to structure your product grid. Each product would be contained within a div element, with the thumbnail, name, and price each in their own nested divs.
+ 
+This approach ensures that your email will look consistent across all email clients, regardless of how they handle tables. It also makes the content more readable and responsive, particularly on mobile devices.
+ 
+By replacing tables with divs in your emails, you can improve the overall user experience and ensure that your message is communicated clearly and effectively to your audience.
+</Note>
