@@ -1,4 +1,33 @@
 ---
 title: 'Non-ASCII Character Replacement'
-description: 'Description of your new file.'
+description: 'Improve email deliverability and avoid spam filters by replacing non-ASCII characters with their ASCII equivalents.'
 ---
+# Why should you replace Non-ASCII Characters?
+
+Non-ASCII characters can cause issues with email deliverability and readability, particularly if the recipient's email client or system does not support the character encoding used. This can result in garbled or unreadable text, which can lead to a poor user experience or even cause the email to be marked as spam. To avoid these issues and ensure that your emails reach your recipients' inboxes, it's important to consider non-ASCII character replacement.
+
+<Info>
+**Quote from [Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/troubleshoot-receiving.html)**
+
+If your message includes characters that aren't in the ASCII character set, you have to encode those characters using HTML character encoding. One common cause of this issue is the Smart Quotes feature of Microsoft Word. If you often copy content from Word and paste it into your emails, you might encounter this issue. The Smart Quotes feature replaces straight quote characters ("...") with curly quote characters (“...”). Curly quote characters aren't standard ASCII characters. As a result, they might be rendered in some email clients as "??" or as a group of characters such as "â€œ".
+</Info>
+
+Non-ASCII character replacement involves replacing non-ASCII characters with their ASCII equivalents, which are supported by most email clients and systems. This can improve the readability and consistency of your emails, making them more accessible to a wider audience. Additionally, some spam filters may flag emails that contain non-ASCII characters as suspicious or spammy, so by using ASCII characters instead, you can reduce the likelihood of your emails being marked as spam. Overall, non-ASCII character replacement is a simple yet effective way to improve email deliverability and ensure that your messages are received and understood by your target audience.
+
+**Here are a few examples:**
+
+1. Fancy quotes: “” -> ""
+1. Ellipsis: … -> ...
+1. Em dash: — -> -
+1. En dash: – -> -
+
+Replacing these non-ASCII characters with their ASCII equivalents can help ensure that your emails are delivered and displayed correctly across different email clients and systems. It can also make your emails easier to read and understand, improving the overall user experience.
+
+# Non-ASCII Character Replacement Use Case
+<Note>
+As an email marketer, you want to ensure that your emails are accessible to a wide range of subscribers, including those who may be using email clients that do not support non-ASCII characters, such as accented letters or special symbols.
+ 
+To address this issue, you decide to replace any non-ASCII characters in your email templates with ASCII equivalents that are more universally supported. For example, you may replace long dashes with a normal hyphen (e.g. — becomes -), and replace fancy double ” with straight quotes ".
+ 
+By replacing non-ASCII characters in your emails, you can ensure that your emails are compatible with a wider range of email clients and devices, and reduce the risk of emails not displaying correctly for some subscribers. Additionally, by using plain text alternatives to special symbols, you can improve the overall readability and clarity of your emails, which can lead to higher engagement and conversion rates. And with a tool like [Campaign Cleaner](https://campaigncleaner.com), you can easily scan your email templates for any non-ASCII characters and quickly replace them with their ASCII equivalents, saving you time and effort in the process.
+</Note>
