@@ -1,4 +1,46 @@
 ---
 title: 'AI Spam Keyword Detection'
-description: 'Description of your new file.'
+description: 'Prevent your emails from getting flagged as spam with spam trigger detection. Identify and eliminate content that triggers spam filters. Boost email deliverability now.'
 ---
+
+# Removing Spam Trigger Keywords
+
+![spam-trigger-1.png](/images/spam-keyword-ratio-2.png)
+
+Email spam trigger detection is an important aspect of email deliverability that helps to ensure that emails are delivered to the intended recipients' inboxes instead of their spam folders. Spam trigger detection involves analyzing emails for certain elements or characteristics that are commonly associated with spam emails, such as certain keywords or phrases, excessive use of punctuation or capitalization, or the inclusion of certain types of attachments.
+
+By detecting these spam triggers, email service providers can prevent spam emails from being delivered to their users' inboxes, which in turn helps to protect users from potential security threats and unwanted marketing messages. However, it is important to note that not all spam triggers are created equal, and some may be more relevant to certain industries or types of emails than others.
+
+To ensure that emails are not incorrectly flagged as spam, it is important to test emails for spam triggers and make necessary adjustments before sending them. 
+
+In today's world, it seems to be based on ratio's. Certain common words like `NOW` can be considered a spam trigger, but it depends on content and frequency. `Buy Now` vs `Please pick me up now`. They both have two different meanings, many spam filters use ratio's of trigger words vs actual content in the email to determine if the email should be filtered.
+
+**Here's the source code from the SpamAssassin, the #1 Open Source anti-spam platform.**
+
+![spam-triggers-1.png](/images/spam-triggers-1.png)
+
+This is just a small sample, `there is literally 100's of spam triggers defined` in SpamAssassin and many more in added plugins. 
+
+Different Internet Service Providers (ISPs) employ various technologies for handling emails, which can lead to differing views on the relevance of spam keywords. Some ISPs, such as Gmail and Yahoo, use advanced technologies that may assign less importance to spam keywords and more important to sender reputation when classifying emails. 
+
+SpamAssassin doesn't know you sending reputation, it's logic based and relies heavily on Spam Keywords and public blacklist data to make an assessment. The ISPs that depend solely on SpamAssassin, spam keyword detection significantly influence email delivery.
+
+For instance, many cable companies still consider spam keywords to be crucial, assigning them a higher weight in their email classification systems. This could be due to their reliance on older, potentially outdated technology or not.
+
+Microsoft, for example, uses a "Spam Confidence Level" (SCL) score for every email. This score reflects the likelihood of an email being spam, indicating that spam keywords still play a role in email classification at certain ISPs.
+
+At [Campaign Cleaner](https://campaigncleaner.com), we look at ratio's and we seen the best results when the ratio is consistantly below 5%.
+
+Our spam keyword list is derived from Artificial Intelligence (AI) sources. Most of these sources utilize machine learning algorithms, making them highly effective in identifying potential trigger keywords. Given the advanced capabilities of AI in pattern recognition and predictive analysis, it serves as an excellent resource for determining which keywords might trigger spam filters.
+
+
+# Real World Example Spam Keyword Reduction
+<Note>
+ABC Inc. is a financial services company that offers investment products and services to its customers. They send out a regular newsletter to their subscribers, which contains information about the latest trends in the financial industry, investment tips, and news about the company's products and services.
+ 
+ABC Inc. noticed that their newsletter was getting caught in spam filters, and their email deliverability was suffering. They conducted an analysis of their emails and found that they were using several spam keywords that were triggering the filters. Words like "free", "earn", "cash", and "guarantee" were being used frequently in their emails.
+ 
+To reduce the spam keyword ratio in their emails, ABC Inc. decided to revise their content strategy. They made sure to avoid using spam keywords in their subject lines and body copy. They also used synonyms and alternative phrases to convey the same message without using spam keywords.
+ 
+After making these changes, ABC Inc. saw a significant improvement in their email deliverability. Their newsletters were no longer being caught in spam filters, and they were able to reach a larger audience. By using spam keyword reduction techniques, ABC Inc. was able to improve their email marketing performance and connect with their subscribers more effectively.
+</Note>
