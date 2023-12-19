@@ -56,6 +56,20 @@
         "account-info/manage-users",
         "account-info/securing-your-account"
       ]
+    }, 
+     {
+      "group": "Legal and Compliance",
+      "pages": [
+        "legal-and-compliance/legal-policies",
+        "legal-and-compliance/privacy-policy",
+        "legal-and-compliance/terms-of-use",
+        "legal-and-compliance/gdpr",
+        "legal-and-compliance/ccpa",
+        "legal-and-compliance/acceptable-use-policy",
+        "legal-and-compliance/subprocessors",
+        "legal-and-compliance/data-processing-addendum",
+        "legal-and-compliance/cookie-policy"
+         ]
     }
   ],
   "footerSocials": {
