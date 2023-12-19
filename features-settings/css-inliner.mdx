@@ -1,4 +1,32 @@
 ---
 title: 'CSS Inliner'
-description: 'Description of your new file.'
+description: 'CSS Inlining is a technique used in email marketing to boost delivery rates by embedding CSS styles directly into the HTML code.'
 ---
+
+# How is CSS Inlining Helpful?
+
+Inlining CSS is helpful for email delivery because many email clients don't support the `<style>` tag or external CSS files. Instead, they require all CSS to be included inline within the HTML document. By inlining CSS, email designers can ensure that their emails render consistently across all email clients, even those that don't support external CSS.
+
+Inlining CSS can also help improve email deliverability. Many spam filters use algorithms to analyze the content of emails, and they may flag emails that have suspicious-looking external CSS files or stylesheets. By inlining CSS, designers can avoid triggering these filters and increase the chances that their emails will be delivered to recipients' inboxes.
+
+There are a few different ways to inline CSS, including manually copying and pasting the styles into the HTML code or using a CSS Inliner tool like [Campaign Cleaner](https://campaigncleaner.com). A CSS Inliner tool is a program that automatically converts external CSS stylesheets or `<style>` tags into inline styles that can be applied directly to HTML elements.
+
+In the first image below, is an example of `<style>` tags used in HTML. The second image will show it being inlined into the HTML which is the proper way to send HTML emails. 
+
+![css-inliner-1-before.png](/images/css-inliner-1-before-2.png)
+
+Below you can see the `<style>` tags were removed, we also removed the `class` attribute, which is another feature of [Campaign Cleaner](https://campaigncleaner.com), since it's no longer needed. Additionally, the `<h1>` tag should be to a `<p>` tag, because it will inherit the CSS of the email/browser client. Which is another feature [H to P Tag Conversion](/h-to-p-tag-conversion) that can be turned on.
+
+![css-inliner-1-after-2.png](/images/css-inliner-1-after-2.png)
+
+# CSS Inlining Use Case
+
+<note>
+ABC Marketing, an email marketing agency, has been struggling with low email deliverability rates for their clients. They have noticed that many of their emails are being flagged as spam and not making it to their clients' inboxes. After researching possible solutions, they discover [Campaign Cleaner](https://campaigncleaner.com) and its CSS inlining feature.
+ 
+ABC Marketing decides to give [Campaign Cleaner](https://campaigncleaner.com) a try and begins using the CSS inlining tool for their email campaigns. They find that by inlining their CSS, their emails are more likely to display correctly across all email clients and devices. This leads to a significant improvement in deliverability rates, with more of their emails successfully reaching their clients' inboxes.
+ 
+Not only does CSS inlining improve email deliverability, but it also saves ABC Marketing time and resources. Instead of manually inlining CSS for each email campaign, they can use Campaign Cleaner to automate the process and streamline their workflow.
+ 
+Overall, ABC Marketing is thrilled with the results they have seen since using [Campaign Cleaner's](https://campaigncleaner.com) CSS inlining tool. Their clients' email campaigns are performing better than ever before, with higher engagement rates and increased revenue.
+</note>
