@@ -79,18 +79,8 @@
         "legal-and-compliance/data-processing-addendum",
         "legal-and-compliance/cookie-policy"
          ]
-    }, 
-    {
-    "group": "Campaign Cleaner",
-    "pages": [
-      "campaign-cleaner\\get-campaign-status",
-      "campaign-cleaner\\get-campaign-list",
-      "campaign-cleaner\\get-campaign",
-      "campaign-cleaner\\get-credits",
-      "campaign-cleaner\\send-campaign",
-      "campaign-cleaner\\delete-campaign"
-    ]
-  }
+    }
+   
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
