@@ -6,6 +6,12 @@
     "dark": "/logo/cclogorefreshwhite45.png",
     "light": "/logo/cclogorefresh50.png"
   },
+   "api": {
+    "baseUrl": "https://api.campaigncleaner.com", 
+    "auth": {
+      "method": "key" 
+    }
+  },
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
