@@ -85,6 +85,9 @@
     }, 
       {
       "group": "API Reference",
+      "pages": ["API Endpoints"],
+       {
+      "group": "API Endpoints",
       "pages": [
         "api-reference/endpoint/delete-campaign",
         "api-reference/endpoint/get-campaign-list",
@@ -93,8 +96,8 @@
         "api-reference/endpoint/get-credits",
         "api-reference/endpoint/send-campaign"
          ]
-    }
-   
+      }
+      }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
