@@ -50,6 +50,14 @@
       "group": "Integrations",
       "pages": ["integrations/integrations"]
     },
+     {
+      "group": "Management",
+      "pages": [
+        "management/api",
+        "management/api-management",
+        "management/cdn-management"
+      ]
+    }, 
     {
       "group": "Account Info",
       "pages": [
