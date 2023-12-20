@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "openapi": "https://campaign-cleaner.github.io/swagger/campaigncleaner.yaml", 
   "logo": {
     "dark": "/logo/cclogorefreshwhite45.png",
