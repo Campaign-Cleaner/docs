@@ -89,9 +89,12 @@
       {
       "group": "api-reference",
       "pages": [
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete",
-        "api-reference/endpoint/get"
+        "api-reference/endpoint/delete-campaign",
+        "api-reference/endpoint/get-campaign-list",
+        "api-reference/endpoint/get-campaign-status",
+        "api-reference/endpoint/get-campaign",
+        "api-reference/endpoint/get-credits",
+        "api-reference/endpoint/send-campaign"
          ]
     }
    
