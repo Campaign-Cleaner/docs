@@ -7,10 +7,7 @@
     "light": "/logo/cclogorefresh50.png"
   },
    "api": {
-    "baseUrl": "https://api.campaigncleaner.com", 
-    "auth": {
-      "method": "key" 
-    }
+    "baseUrl": "https://api.campaigncleaner.com"   
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -87,7 +84,7 @@
          ]
     }, 
       {
-      "group": "api-reference",
+      "group": "API Reference",
       "pages": [
         "api-reference/endpoint/delete-campaign",
         "api-reference/endpoint/get-campaign-list",
