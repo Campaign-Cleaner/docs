@@ -1,25 +1,24 @@
 ---
 title: 'SpamAssassin Score'
-description: 'Description of your new file.'
+description: 'SpamAssassin is a widely-used open-source software utility that evaluates and filters email to identify spam, also known as junk or unsolicited bulk email.'
 ---
 
+It operates by applying a diverse set of rules that check various aspects of email content, such as header fields, the body of the message, and the frequency of certain words or phrases that are commonly found in spam. Each of these rules adds or subtracts from a total score, which determines whether an email is classified as spam.
 
 
-
-
-I put together content for a simple email below, The message is a classic spam example, promising a million-dollar payout from a 'GUARANTEED' system and stock tips.
+To show you how this works, I put together a simple email below:
 
 Look for the **bold words**; those are our spam bait.
 
 <Card>
-
-This is a SpamAssassin Demo to demonstrate how it's Spam Engine filtering software works.
-
-We're going to focus on the Content Filtering portion of SpamAssassin.
-
-Test SpamAssassin
-
 You can make **million dollars** by using our **100% GUARANTEED** system. When our stock screener finds a stock worth investing in, we will send out a **stock alert** to take action on. Disclaimer: We are **not a registered investment advisor**.
 </Card>
 
-When Campaign Cleaner cleans your campaing, look in the (AI Spamkeyword )
+When Campaign Cleaner cleans your campaign, in the campaign analysis, look for the [Spam Keyword Ratio](/features-settings/spam-trigger-detection) 
+section. You'll find an entry specifically for SpamAssassin, click on `See Results`, that will pop up in a modal window revealing the results from SpamAssassin. 
+
+For the example email above, the results are below. 
+
+![SpamAssassin Results](/images/spam-assassin-test-1.png)
+
+The report from SpamAssassin has highlighted five specific items—it's pinpointed the exact keywords we planted as spam indicators. By tweaking or eliminating these problematic words, you'll significantly boost your email's chances of making it to the intended inbox.
