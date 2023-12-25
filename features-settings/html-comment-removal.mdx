@@ -6,6 +6,8 @@ description: 'Removing HTML comments from emails can improve email deliverabilit
 # Does HTML Comment Removal Help?
 Removing HTML comments from emails can significantly improve email deliverability. HTML comments are often used by developers to leave notes and annotations in the code, but they can bloat the email's file size and negatively affect email rendering in different email clients. In some cases, email spam filters may find something they don't like in HTML comments and consider it spammy, which can result in the email being blocked or sent to the recipient's spam folder.
 
+## SpamAssassin Source For Obfuscating Comments
+
 **Here's the source code from the SpamAssassin, the #1 Open Source anti-spam platform.** 
 
 ![sa-html-comment.png](/images/sa-html-comment.png)
@@ -22,13 +24,14 @@ Removing HTML comments from emails is a simple but effective way to improve emai
 
 Always flip this setting on in [Campaign Cleaner](https://campaigncleaner.com).
 
-**Here's an Example:**
+## Example of HTML Comment Removal
 
-**Before:**
+
+### Before ###
 
 ![html-comment-1.png](/images/html-comment-3.png)
 
-**After:**
+### After ###
 
 ![html-comment-2.png](/images/html_comment-4.png)
 
