@@ -39,7 +39,7 @@
   ],
      "navigation": [
     {
-      "group": "Campaign Cleaner",
+      "group": "Campaign Managmement",
       "pages": ["campaign-cleaner/clean-campaign", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings","campaign-cleaner/saved-campaigns","campaign-cleaner/import-campaigns"]
     },
     {
