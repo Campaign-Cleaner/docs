@@ -15,7 +15,11 @@ To ensure that emails are not incorrectly flagged as spam, it is important to te
 
 In today's world, it seems to be based on ratio's. Certain common words like `NOW` can be considered a spam trigger, but it depends on content and frequency. `Buy Now` vs `Please pick me up now`. They both have two different meanings, many spam filters use ratio's of trigger words vs actual content in the email to determine if the email should be filtered.
 
-**Here's the source code from the SpamAssassin, the #1 Open Source anti-spam platform.**
+
+
+## SpamAssassin Source Code
+
+**Below is the source code from the SpamAssassin, the #1 Open Source anti-spam platform.**
 
 ![spam-triggers-1.png](/images/spam-triggers-1.png)
 
@@ -25,9 +29,19 @@ Different Internet Service Providers (ISPs) employ various technologies for hand
 
 SpamAssassin doesn't know you sending reputation, it's logic based and relies heavily on Spam Keywords and public blacklist data to make an assessment. The ISPs that depend solely on SpamAssassin, spam keyword detection significantly influence email delivery.
 
-For instance, many cable companies still consider spam keywords to be crucial, assigning them a higher weight in their email classification systems. This could be due to their reliance on older, potentially outdated technology or not.
+## Cable ISP Companies
+
+Many cable companies still consider spam keywords to be crucial, assigning them a higher weight in their email classification systems. This could be due to their reliance on older, potentially outdated technology or not.
+
+## Spam Confidence Level
 
 Microsoft, for example, uses a "Spam Confidence Level" (SCL) score for every email. This score reflects the likelihood of an email being spam, indicating that spam keywords still play a role in email classification at certain ISPs.
+
+## Apple's Content Scanner
+
+Apple, uses a "Content Scanner" score for every email. This rating indicates the probability of an email being classified as spam, suggesting that spam-related keywords continue to influence email categorization at Apple. If you review email bounces you would see bounces with the code `CS01` or `CS02` in your logs, the `CS` stands for Content Scanner.
+
+## AI SpamKeyword Ratio
 
 At [Campaign Cleaner](https://campaigncleaner.com), we look at ratio's and we seen the best results when the ratio is consistantly below 5%.
 
