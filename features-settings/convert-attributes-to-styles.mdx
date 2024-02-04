@@ -1,18 +1,27 @@
 ---
-title: 'Convert Attributes To Style'
+title: 'Convert CSS Attributes To Style'
 description: 'Relative references are not suitable for emails because the absolute path will be of the URL where the email is opened. Not the absolute path of where image is stored.'
 ---
 
-## How does it happen?
-This situation typically occurs when attempting to transform website HTML into email HTML. Many websites favor using relative paths, as they are either directly serving images or linking to content located in a different section of the website. This approach, while effective for websites, encounters issues when applied to email HTML due to the differing nature of resource linking in emails. 
+## What are CSS Attributes?
+Some HTML elements allow you to define CSS related attributes instead of using the style attribute. For example
 
-## How to Convert Relative Links?
+`<div width="100">`
 
-At campaign cleaner we provide a tool that will detect relative links in the `HTML` and allow you to quickly convert them `absolute URLS`. 
+To ensure compatabilty accross all emails clients Campaign Cleaner will convert the attribute with into a style width also. 
 
-This feature is found under `Clean Campaign` --> `Tools` --> `Convert Relative Links`
+`<div style="width:100px" width="100">`
 
-![Convert Relative URLS](/images/convert-relative-links.png)
+Some attributes after the conversion will be removed, like `bgcolor`, some we will leave both in place, because it can affect the rendering layout of your newsletter. 
 
-Just type in your `BASE URL` and click `Update My Links`
+## Why is this important?
 
+1. **Consistent Rendering:** Different email clients may interpret HTML attributes inconsistently. Using inline styles ensures a more consistent rendering of your email across various platforms.
+
+1. **Compatibility:** Some email clients might not support certain HTML attributes for styling, and using inline styles is a more universally accepted method for styling HTML elements in emails.
+
+1. **Responsive Design:** Inline styles provide better control over responsive design. By specifying styles directly in the HTML elements, you can tailor the appearance of your email content to different screen sizes and devices.
+
+1. **Avoiding Quirks:** Some email clients have quirks and limitations when it comes to interpreting HTML attributes. Inline styles are a safer choice to avoid potential issues with how your email is displayed.
+
+1. **Cross-Client Compatibility:** Different email clients have varying levels of support for HTML and CSS. Using inline styles increases the likelihood that your styling will be correctly applied regardless of the email client.
