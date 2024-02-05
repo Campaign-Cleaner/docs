@@ -9,7 +9,7 @@
    "api": {
     "baseUrl": "https://api.campaigncleaner.com"   
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://campaigncleaner.com/assets/images/cc64.png",
   "colors": {
     "primary": "#054587",
     "light": "#0067f4",
