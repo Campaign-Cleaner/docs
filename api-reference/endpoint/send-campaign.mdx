@@ -31,6 +31,7 @@ _Optional:_
 - **image_max_width:** (int) When this is specified, it will add an max-width style to all images. it is not desirable for the image width to exceed the default campaign width.
 - **min_font_size_allowed**: (_**10**_) (A positive Integer, under 100) The **min_font_size** must be smaller or equal to the **max_font_size** in pixels
 - **max_font_size_allowed**: (_**32**_) (A positive Integer under 100) The **max_font_size** must be larger or equal to the **min_font_size** in pixels
+- **preserve_media_queries**: (**true**/false), If true, all media queries are preserved.
 - **remove_classes_and_ids**: (_**true**_/false) If true, removes all the class and ID attributes after CSS Inlining.
 - **remove_comments**: (_**true**_/false), If true, comments are stripped from both CSS and HTML. Comments are invisible in html and can trigger spam filters.
 - **remove_css_inheritance**: (_**true**_/false) If true, removes all elements of CSS that are inherited. Once CSS is inlined, the inherited CSS will be removed, for example if font-size of a parent tag is 15 pixels, there is no need for the font-size of the child tag to be specified as 15 pixels because it's inherited or computed from the parent tag, this reduces the size of your HTML Campaign.
@@ -47,7 +48,6 @@ _Optional:_
     - **text_align**: (left, center, right) All content within the surrounding "div" will be aligned according to your specified style. However, you can use the "text-align" property on inner tags within the "div" to customize the appearance of your email.
     - **font_size:** The pixel size that you want everything in the surrounding div to adhere to, setting this, will add an "_!important"_ to the font-size in the surrounding "div". Font sizes that are set on any tag in the HTML will retain their original size. While all unspecified font sizes to the size you chose.
     - **center_to_parent:** (true/false) Using this feature will enable the surrounding "div" to be centered in any parent tags in which it is placed. This is particularly helpful when inserting an HTML snippet into a template.
-- **treat_as_fragment**: (**true**/false), If true, all information before and after and including the body tag is removed.
 - **webhook_url**: An endpoint that you provide us and when your campaign is fully processed we will send the results back that is found in the Get Campaign API. You can utilize the webhook section under API Management to troubleshoot and test your endpoint.
     
 
