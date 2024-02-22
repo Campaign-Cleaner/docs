@@ -116,6 +116,7 @@ _Optional:_
     - **image_rendered_height**: (integer) The rendered height of the image.
 - **pd_cdns_found**: (integer) The number of content delivery networks found, known to cause adverse delivery issues.
 - **pd_cdns_link_count**: (integer) The total number of links pointed to content delivery networks know to cause adverse delivery issues.
+- **preserve_media_queries**: (true/false) True, if all media queries were preserved.
 - **relative_links_base_url**: If set this needs to be a full base URL like "[https://campaigncleaner.com/"](https://campaigncleaner.com/), if your email campaign has any relative paths, it will be converted to an absolute URL. In most instances, you won't need to set this.
 - **remove_successive_punctuation**: (true/false) if true, this will remove succession punctuation like ..., !!!!, $$$ to a single occurrence.
 - **remove_css_inheritance**: (true/false) If true, removes all elements of CSS that are inherited. Once CSS is inlined, the inherited CSS will be removed, for example if font-size of a parent tag is 15 pixels, there is no need for the font-size of the child tag to be specified as 15 pixels because it's inherited or computed from the parent tag, this reduces the size of your HTML Campaign.
