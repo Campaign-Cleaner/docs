@@ -4,7 +4,7 @@ description: 'Embedded images in emails can also be included as attachments rath
 ---
 
 
-# Here's how it works
+# Here's how it works:
 
 ## Attaching the Image 
 When you attach an image to an email, it becomes a separate part of the MIME (Multipurpose Internet Mail Extensions) structure of the email. Each part of a MIME email has its own headers, such as Content-Type, Content-Disposition, and Content-ID.
@@ -18,8 +18,7 @@ Content-ID: <image123>
 Content-Transfer-Encoding: base64
 ~~~
 
-
-## Referencing the Image in HTML:
+## Referencing the Image in HTML
 
 In the HTML body of the email, you can reference the attached image using the img tag with a src attribute that uses the cid: scheme followed by the Content-ID of the image:
 ~~~
@@ -28,7 +27,7 @@ In the HTML body of the email, you can reference the attached image using the im
 
 In this example, image123 is the Content-ID assigned to the image in the MIME part headers. When the email is viewed, the email client will display the attached image in place of the img tag.
 
-## Disadvantages:
+## Disadvantages
 **Email Size:** Attaching images can increase the overall size of the email, which might affect loading times and bandwidth usage for recipients.
 
 **Spam Filters:** Emails with attachments are sometimes more likely to be flagged by spam filters, especially if the attachments are large.
