@@ -73,7 +73,8 @@
       "group": "References",
       "pages": [
         "references/https-status-codes",
-        "references/embedded-images"
+        "references/embedded-images",
+         "references/campaign-cleaner-quirks"
       ]
     }, 
      {
