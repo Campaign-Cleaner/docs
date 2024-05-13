@@ -12,7 +12,7 @@ Here's a list of quirks, that we will update when we find them also, that we are
 
     <b>Possible Cause:</b> We replace unicode characters with their ASCII equivalent, If you're using unicode chacaracters in your file or image names, they can and most likely will appear to be broken. We thought about not changing images and links, but decided against it at this time. 
 
-    <b>Solution:</b> Rename your images without using unicode characters. You probably didn't know you were to begin with. 
+    <b>Solution:</b> Rename your images without using unicode characters. You probably didn't know you were to begin with or perhaps you are using the MacOS screenshot software which will put in a u202f unicode character by default in the file name between the time and AM/PM. Changing the system time to 24 hours will fix this. You can also turn off the date function in the screenshot with the following command in Terminal “defaults write com.apple.screencapture "include-date" 0”
 
     <b>Reason:</b> Please Read [Non-ASCII Character Replacement](/features-settings/non-ascii-character-replacement). There are some replacements that we do without this setting turned on.
 
