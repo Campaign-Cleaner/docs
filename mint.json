@@ -101,6 +101,7 @@
         "api-reference/endpoint/get-campaign-list",
         "api-reference/endpoint/get-campaign-status",
         "api-reference/endpoint/get-campaign",
+        "api-reference/endpoint/get-campaign-pdf-analysis",
         "api-reference/endpoint/get-credits",
         "api-reference/endpoint/send-campaign"
          ]
