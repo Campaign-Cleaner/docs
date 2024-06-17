@@ -9,7 +9,18 @@ Inlining CSS is helpful for email delivery because many email clients don't supp
 
 Inlining CSS can also help improve email deliverability. Many spam filters use algorithms to analyze the content of emails, and they may flag emails that have suspicious-looking external CSS files or stylesheets. By inlining CSS, designers can avoid triggering these filters and increase the chances that their emails will be delivered to recipients' inboxes.
 
-There are a few different ways to inline CSS, including manually copying and pasting the styles into the HTML code or using a CSS Inliner tool like [Campaign Cleaner](https://campaigncleaner.com). A CSS Inliner tool is a program that automatically converts external CSS stylesheets or `<style>` tags into inline styles that can be applied directly to HTML elements.
+There are a few different ways to inline CSS, including manually copying and pasting the styles into the HTML code or using a CSS Inliner tool like [Campaign Cleaner](https://campaigncleaner.com). A CSS Inliner tool is a program that automatically converts linked CSS stylesheets or `<style>` tags into inline styles that can be applied directly to HTML elements.
+
+Media Queries are used to adjust the CSS for certain devices and resolution, most of the major email clients support them to some degree. There is no harm in using Media Queries, if it's supported that device will use them, if it's not supported it will just be ignored. We have a setting to 'Preserve Media Queries', this option should be turned on, even if you don't use them. 
+
+Also, there is two additional advanced options which are defaulted on,  
+
+  1. Remove !important when Inlining CSS - This option removes the !important flag on any CSS that is being inlined. If you're using media queries, this is important to remove, so the media queries can overwrite the Inline CSS Styles. 
+  2. Add !important to Media Queries - The only way Media Queries can over-write existing inline CSS is if the values in the Media Queries are maked with `!important`. 
+
+<Note>
+  Linked stylesheets as styles in a seperate file and is widely unsupported in most email clients, if you choose not to inline your CSS the linked stylesheets will be removed from your HTML, since it's widely unsupported.
+</Note>
 
 In the first image below, is an example of `<style>` tags used in HTML. The second image will show it being inlined into the HTML which is the proper way to send HTML emails. 
 
