@@ -2,23 +2,4 @@
 title: 'Delete Campaign'
 openapi: 'POST /v1/delete_campaign'
 ---
-The **delete_campaign** API endpoint allows you to delete any of the campaigns in your saved campaigns in [Campaign Cleaner](https://campaigncleaner.com).
 
-#### <u>Header:</u>
-        
-**X-CC-API-Key**: Your API Key
-       
-
-#### <u>Request Body:</u>
-
-**campaign**:
-
-- **id**: The campaign id that will be used in other API calls.
-    
-
-#### <u>Response:</u>
-
-- **status**: _success_ or _failure,_ failures can occur when the **campaign_id** doesn't exists or was deleted.
-    
-
-In the event of an error, you will get an "**error**:" response, with a description of the reason.
