@@ -2,29 +2,3 @@
 title: 'Get Campaign Status'
 openapi: 'POST /v1/get_campaign_status'
 ---
-After submitting a campaign to be corrected and analyzed it can take up to a minute to finalize the results. You can check the status of your campaign with the **get_campaign_status** API. When you see a `completed` status, you can call the **get_campaign** API to retrieve the results.
-
-#### <u>Header:</u>
-        
-**X-CC-API-Key**: Your API Key
-
-#### <u>Request Body:</u>
-
-**campaign**:
-
-- **id**: The Campaign ID that you want to get the status for.
-    
-
-#### <u>Response:</u>
-
-**campaign_list**:
-
-- **id**: The campaign id that will be used in other API calls.
-- **campaign_name**: The name of the campaign.
-- **status**: The status will be either _processing_, _completed_, or _paused_
-- **date_added**: The date and time your campaign was saved or submitted to [Campaign Cleaner](https://campaigncleaner.com).
-    
-
-If the **status** is _completed_, you will be able to retrieve the campaign via the **get_campaign** API
-
-In the event of an error, you will get an "**error**:" response, with a description of the reason
