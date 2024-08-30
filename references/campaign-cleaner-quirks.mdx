@@ -19,4 +19,11 @@ Here's a list of quirks, that we will update when we find them also, that we are
     <b>Best Practice:</b> Stick to ASCII for Maximum Compatibility, if you want to ensure the broadest compatibility, especially across different systems and in network environments, sticking to ASCII characters in filenames is safest.
 
 </Accordion>
+<Accordion title="The attributes and styles in the BODY tag disappear">
+
+    <b>Cause:</b> We strip this out this on purpose, a lot of email clients don't support styles in the body tag. A few email clients will convert it to a div tag.
+
+    <b>Solution:</b> Wrap a DIV tag around your campaign HTML and put the styles in the DIV tag.
+
+</Accordion>
 </AccordionGroup>
