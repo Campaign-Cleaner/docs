@@ -19,5 +19,15 @@ Here's a list of quirks, that we will update when we find them also, that we are
     <b>Best Practice:</b> Stick to ASCII for Maximum Compatibility, if you want to ensure the broadest compatibility, especially across different systems and in network environments, sticking to ASCII characters in filenames is safest.
 
 </Accordion>
+<Accordion title="My Images show as broken, when They Are Not">
 
+    <b>Possible Cause:</b> Most mondern browsers will display the HTTPS version of images (If one exists), even if you specificy the HTTP version. Chrome calls this the HTTPS-First Mode, which is enable by default. If the HTTPS version of your image is different or if the SSL is expired, the images will show as broken.
+
+    <b>Solution:</b> Fix the SSL Certificate for the HTTPS version of your images, or remove the HTTPS path for your images.
+
+    <b>Reason:</b> Please Read [Chromium Blog - Towards HTTPS by default](https://blog.chromium.org/2023/08/towards-https-by-default.html).
+    
+<b>Best Practice:</b> Also use HTTPS Images and links in email.
+
+</Accordion>
 </AccordionGroup>
