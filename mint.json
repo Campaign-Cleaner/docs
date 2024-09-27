@@ -4,7 +4,8 @@
   "openapi": "https://campaign-cleaner.github.io/swagger/campaigncleaner.yaml", 
   "logo": {
     "dark": "/logo/cclogorefreshwhite45.png",
-    "light": "/logo/cclogorefresh50.png"
+    "light": "/logo/cclogorefresh50.png",
+    "href": "https://docs.campaigncleaner.com/campaign-cleaner/clean-campaign"
   },
    "api": {
     "baseUrl": "https://api.campaigncleaner.com"   
