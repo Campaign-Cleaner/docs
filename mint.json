@@ -5,7 +5,7 @@
   "logo": {
     "dark": "/logo/cclogorefreshwhite45.png",
     "light": "/logo/cclogorefresh50.png",
-    "href": "https://docs.campaigncleaner.com/campaign-cleaner/clean-campaign"
+    "href": "https://campaigncleaner.com"
   },
    "api": {
     "baseUrl": "https://api.campaigncleaner.com"   
