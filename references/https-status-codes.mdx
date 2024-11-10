@@ -10,7 +10,8 @@ Responses are grouped in five classes:
 3. Redirection messages (`300` – `399`)
 4. Client error responses (`400` – `499`)
 5. Server error responses (`500` – `599`)
-6. Campaign Cleaner responses (`0` – `99`)
+6. Unoffical error responses (various)
+7. Campaign Cleaner responses (`0` – `99`)
 
 The status codes listed below are defined by [RFC 9110](https://httpwg.org/specs/rfc9110.html#overview.of.status.codes).
 
@@ -226,6 +227,11 @@ The status codes listed below are defined by [RFC 9110](https://httpwg.org/specs
 
 **511 Network Authentication Required**
   - Indicates that the client needs to authenticate to gain network access.
+
+## Unofficial error responses
+
+***999 Rate Limited ** 
+   - This is an unofficial HTTP status response commonly used by websites to limit the number of connections within a specific time frame in order to protect the server from bots. It's often encountered on websites like LinkedIn. If you see this in your broken link report, the link is likely not broken. Instead, it means we're being rate-limited by the website. If the link works when you click it, it should also work for recipients who click it in your email or on your website. 
 
 ## Campaign Cleaner Responses
 
