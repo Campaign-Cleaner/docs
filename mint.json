@@ -88,8 +88,8 @@
 }
 ,
     {
-      "group": "Management",
-      "pages": ["managment/api", "managment/api-management", "managment/cdn-management"]
+      "group": "Other Tools",
+      "pages": ["other-tools/mx-vision"]
     },
     {
       "group": "Integrations",
