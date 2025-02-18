@@ -1,0 +1,96 @@
+---
+title: 'Inbox Placement Test Center'
+description: 'Ensure Your Emails Reach the Inbox, Not the Spam Folder.'
+---
+
+# What is The Inbox Placement Test Center?
+The Inbox Placement Test Center is a tool designed to help you determine where your emails land when sent to major ISPs like Gmail, Yahoo, Hotmail, and Apple Mail. Instead of waiting for real-world campaign performance data, this tool lets you proactively check whether your emails are reaching the inbox, spam folder, or are being blocked entirely.
+## How does it work?
+We provide multiple seed addresses across various ISPs, allowing you to see exactly how your email is treated by each provider. Many ISPs distribute emails inconsistently—meaning the same email may land in the inbox for some users but go to spam for others.
+
+For example, an ISP might deliver:
+
+- 30% of your emails to the inbox
+- 70% to the spam folder
+
+Additionally, ISPs analyze recipient engagement (opens, clicks, replies, and deletions) to adjust future placements. Over time, emails that initially land in spam may be dynamically moved to the inbox—or vice versa—depending on how users interact with them. This dynamic filtering makes ongoing testing critical for maintaining strong deliverability.
+
+## Important Considerations Before Running an Inbox Placement Test 
+To get the most accurate results, send each seed address a separate email.
+
+- **Do NOT send all test emails using the "To" or "CC" fields**—this is a major spam flag, as mass-sending to multiple recipients with different domains at once can be perceived as suspicious behavior.
+- If you use an ESP (Email Service Provider), send the test email **exactly as you would in a real campaign** to mimic real-world sending conditions.
+- If your email contains **dynamic content**, make sure each test email reflects how your actual audience would receive it.
+
+## What Steps Can I Take to Fix Spam Placement? 
+There’s no single fix—each case is different, and hundreds of factors influence spam placement. However, some foundational best practices include:
+
+###The Obvious Steps (That Everyone Mentions) 
+
+1. Only send to opt-in users – Sending to purchased or scraped lists is a surefire way to get flagged.
+2. Send only to engaged users – Many recommend focusing on 30-day openers and clickers, but this varies based on email frequency. If you send a monthly newsletter, filtering by 30-day engagement isn’t always practical.
+3. Remove unsubscribed users and feedback loop (FBL) complaints – ISPs track user complaints; repeated issues hurt your sender reputation.
+4. Ensure proper authentication – Set up SPF, DKIM, and DMARC records to verify your sending domain and prevent spoofing.
+5. [Follow ISP Postmaster Guidelines](https://campaigncleaner.com/email-deliverability-guide.html#postmaster-guidelines) – Each ISP has its own rules for managing deliverability. See our guide for direct links to major ISPs' best practices.
+
+1. Only send to OPT-IN Users
+2. Only send to engaged users (30 day openers and clickers). But this can vary, depending on how you send, For instance , if you a monthly newsletter, this isnt' a good segment to use. 
+3. Remove all Un-suscribers and FBL (Feedback Loop) Complaints
+4. Set up proper authentication (SPF, DKIM, DMARC)
+5. Follow the [Postmaster Guidelines](https://campaigncleaner.com/email-deliverability-guide.html#postmaster-guidelines) at the Major ISPs.
+
+## The Less Talked About but Critical Fixes
+- **Monitor your sending patterns** – Sudden spikes in email volume can trigger spam filters.
+- **Improve email engagement** – Encouraging recipients to reply or move your emails to the inbox can help train filters in your favor.
+- **Reduce spam-triggering content** – Avoid excessive capitalization, misleading subject lines, and suspicious links.
+- **Warm up new domains and IPs** – If you recently switched to a new sender domain or IP, gradually increase your sending volume to build a positive reputation.
+
+
+## ISP-Specific Scoring & Reputation Metrics
+Each major ISP uses different metrics to determine email placement. Here’s what they track:
+
+###Gmail Postmaster Tools
+- **Domain Reputation** – Ranges from Bad, Low, Medium, and High.
+- **IP Reputation** – Assesses the sending IP’s trustworthiness.
+- **Spam Rate** – Measures complaint levels based on recipient reports.
+
+###Microsoft (Hotmail/Outlook) SNDS
+- **BCL (Bulk Complaint Level)** – A score from 0 to 9 indicating how much a sender resembles a bulk sender. Higher values (above 4) indicate higher likelihood of spam placement.
+- **SCL (Spam Confidence Level)** – Ranges from -1 to 9, with higher numbers meaning greater suspicion of spam. Emails with an SCL of 5 or higher are usually sent to spam.
+- **SNDS (Smart Network Data Services)** – Provides IP reputation insights, showing complaint rates and spam filtering behavior.
+
+###Apple Mail (iCloud Mail)
+- **ICL (Inbox Confidence Level)** – A proprietary Apple Mail score determining the likelihood of an email being placed in the inbox vs. spam. This is largely based on user engagement, sender authentication, and past delivery history.
+
+###Yahoo Postmaster Tools
+- **CFL (Complaint Feedback Loop)** – Allows senders to see if users are marking emails as spam.
+- **Deliverability Reports** – Provides insights on how Yahoo processes your emails.
+
+##Why These Metrics Matter
+Your email placement is largely determined by:
+
+- **IP Reputation** – The sending IP’s history, complaints, and blacklist status.
+- **Domain Reputation** – How your domain is perceived over time.
+- **Engagement-Based Filtering** – How recipients interact with your emails.
+- **Authentication & Compliance** – SPF, DKIM, DMARC, and ISP-specific guidelines.
+
+## Why Do Emails Land in Spam?
+
+- **Poor IP Reputation** – If your IP has a history of spam, ISPs will filter your emails.
+- **Weak Domain Reputation** – Domains sending low-quality or unengaged emails will suffer.
+- **Blacklist Listings** – If your IP or domain is blacklisted, your emails will struggle to reach the inbox.
+- **Engagement-Based Filtering** – Low open rates and high spam complaints hurt deliverability.
+- **Spammy Content** – Misleading subject lines, excessive links, or poor formatting can trigger filters.
+
+## Content Optimization & Inbox Placement
+Even with a clean IP and domain reputation, content plays a huge role in whether your emails reach the inbox.
+
+- Avoid spam-triggering words and misleading subject lines.
+- Keep a balanced text-to-image ratio—too many images or all-text emails can be flagged.
+- Encourage recipient interaction—more engagement leads to better placement.
+
+##How Campaign Cleaner Helps
+Campaign Cleaner analyzes and optimizes your email content for better deliverability and engagement—helping you stay out of the spam folder and in the inbox.
+
+<video controls class="w-full aspect-video" src="https://campaigncleaner.com/assets/videos/inbox-tester.mp4"></video>
+
