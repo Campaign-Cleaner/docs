@@ -89,8 +89,10 @@
 ,
     {
       "group": "Other Tools",
-      "pages": ["other-tools/inbox-placement-tester"],
-      "pages": ["other-tools/mx-vision"]
+      "pages": [
+        "other-tools/inbox-placement-tester",
+        "other-tools/mx-vision"
+      ]
     },
     {
       "group": "Integrations",
