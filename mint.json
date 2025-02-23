@@ -137,7 +137,7 @@
     }, 
       {
       "group": "API Reference",
-      "pages": ["api-reference/introduction","API Endpoints",
+      "pages": ["api-reference/introduction",
        {
       "group": "API Endpoints",
       "pages": [
