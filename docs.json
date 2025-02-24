@@ -77,7 +77,13 @@
           {
             "group": "Free Tools",
             "pages": [
-              "free-tools/mail-tester"
+              "free-tools/mail-tester",
+              "free-tools/email-list-analyzer",
+              "free-tools/dmarc-generator",
+              "free-tools/spf-generator",
+              "free-tools/dkim-generator",
+              "free-tools/preheader-generator",
+              "free-tools/spf-lookup"
             ]
           },
 
