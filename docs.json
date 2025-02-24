@@ -9,6 +9,19 @@
   },
   "favicon": "/logo/cc64.png",
   "navigation": {
+      "dropdowns": [
+        {
+          "dropdown": "eMail Tester",
+          "icon": "envelope",
+          "href": "https://campaigncleaner.com/tools/mail-tester/"
+        },
+        {
+          "dropdown": "Inbox Placement Test",
+          "icon": "paper-plane",
+          "href": "https://campaigncleaner.com/inbox-placement-tester.html"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Documentation",
