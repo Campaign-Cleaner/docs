@@ -36,7 +36,10 @@
       "pages": "api-reference"
     },
   ],
-    "Dropdowns":[
+  "anchors": [    
+  ],
+     "navigation": [
+       "Dropdowns":[
     { 
       "Dropdown": "eMail Tester",
       "icon": "envelope",
@@ -48,9 +51,6 @@
       "href": "https://campaigncleaner.com/inbox-placement-tester.html"
       }
   ],
-  "anchors": [    
-  ],
-     "navigation": [
     {
       "group": "Campaign Managmement",
       "pages": ["campaign-cleaner/clean-campaign", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings","campaign-cleaner/saved-campaigns","campaign-cleaner/import-campaigns"]
