@@ -141,11 +141,7 @@
             ]
           }
         ]
-      },
-       {
-      "tab": "Tools: eMail Tester",
-      "href": "https://campaigncleaner.com/tools/mail-tester/"
-    }
+      }
     ]
   },
   "logo": {
@@ -161,6 +157,10 @@
   },
   "navbar": {
     "links": [
+      {
+        "label": "eMail Tester",
+        "href": "https://campaigncleaner.com/tools/mail-tester/"
+      },
       {
         "label": "Support",
         "href": "https://campaigncleaner.com/contact.html"
