@@ -68,12 +68,19 @@
             ]
           },
           {
-            "group": "Other Tools",
+            "group": "Members Tools",
             "pages": [
               "other-tools/inbox-placement-tester",
               "other-tools/mx-vision"
             ]
           },
+          {
+            "group": "Free Tools",
+            "pages": [
+              "free-tools/email-tester"
+            ]
+          },
+
           {
             "group": "Integrations",
             "pages": [
