@@ -38,7 +38,7 @@
   ],
   "anchors": [    
   ],
-     "navigation": [
+     "navigation": {
        "Dropdowns":[
     { 
       "Dropdown": "eMail Tester",
