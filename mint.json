@@ -32,13 +32,13 @@
   },
   "tabs": [
     {
-      "tab": "API Reference",
-      "pages": "api-reference"
-    },
+      "name": "API Reference",
+      "url": "api-reference"
+    }
   ],
   "anchors": [    
   ],
-     "navigation": {
+     "navigation": [ 
        "dropdowns":[
     { 
       "dropdown": "eMail Tester",
@@ -50,8 +50,8 @@
       "icon": "paper-plane",
       "href": "https://campaigncleaner.com/inbox-placement-tester.html"
       }
-  ],
-    
+       ],
+    {
       "group": "Campaign Managmement",
       "pages": ["campaign-cleaner/clean-campaign", "campaign-cleaner/campaign-analysis", "campaign-cleaner/settings","campaign-cleaner/saved-campaigns","campaign-cleaner/import-campaigns"]
     },
