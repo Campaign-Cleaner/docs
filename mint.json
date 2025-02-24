@@ -32,9 +32,21 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
+      "tab": "API Reference",
+      "pages": "api-reference"
+    },
+  ],
+    "Dropdowns":[
+    { 
+      "Dropdown": "eMail Tester",
+      "icon": "envelope",
+      "href": "https://campaigncleaner.com/tools/mail-tester/"
+    },
+    { 
+      "dropdown": "Inbox Placement Test",
+      "icon": "paper-plane",
+      "href": "https://campaigncleaner.com/inbox-placement-tester.html"
+      }
   ],
   "anchors": [    
   ],
