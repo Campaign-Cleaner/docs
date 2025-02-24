@@ -13,18 +13,6 @@
     "tabs": [
       {
         "tab": "Documentation",
-          "dropdowns": [
-        {
-          "dropdown": "eMail Tester",
-          "icon": "envelope",
-          "href": "https://campaigncleaner.com/tools/mail-tester/"
-        },
-        {
-          "dropdown": "Inbox Placement Test",
-          "icon": "paper-plane",
-          "href": "https://campaigncleaner.com/inbox-placement-tester.html"
-        }
-      ],
         "groups": [
           {
             "group": "Campaign Managmement",
