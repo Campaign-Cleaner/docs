@@ -87,7 +87,7 @@
               "free-tools/dmarc-lookup",
               "free-tools/dmarc-generator",
               "free-tools/spf-lookup",
-              "free-tools/spf-generator"
+              "free-tools/spf-generator",
               "free-tools/mx-checker"
             ]
           },
