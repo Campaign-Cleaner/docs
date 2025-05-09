@@ -21,6 +21,7 @@ The images are store on our Ultra-Fast Global CDN Edge powered by Cloudflare, yo
 - Add a [Surrounding Div](/features-settings/surrounding-html-div) with a max-width.
 ![resize-host-1.png](/images/resize-host-1.png)
 
+
 ## Automatically Resize and Host
 
 Under `campaign settings` there, you will see an option to automatically resize and host images.  By default we have this turned off.
@@ -28,6 +29,10 @@ Under `campaign settings` there, you will see an option to automatically resize 
 ![resize-host-4.png](/images/resize-and-host-4.png)
 
 The default setting is off because certain images, particularly those used for `Tracking,` should not be relocated. Often, tracking pixels lack an extension, although occasionally they may have one. If your tracking pixels don't include an extension, such as `.jpg`, then you can enable this feature while keeping the `Host Extensionless Images` option set to  `No`.
+
+## All Images Are Changed Creating a New Image Hash
+
+Campaign Cleaner will update the hash of all images hosted on our CDN. This ensures that any images that might have been previously used in spam emails by others no longer carry a negative impact. By modifying the image, we create a unique hash, preventing spam filters from matching it to any past spamming attempts. This helps protect your reputation and ensures your emails aren’t mistake.
 
 # Video Overview of Resizing and Hosting Images On Campaign Cleaner
 
