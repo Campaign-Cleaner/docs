@@ -9,7 +9,6 @@
   },
   "favicon": "/logo/cc64.png",
   "navigation": {
-    
     "tabs": [
       {
         "tab": "Documentation",
@@ -91,7 +90,6 @@
               "free-tools/mx-checker"
             ]
           },
-
           {
             "group": "Integrations",
             "pages": [
@@ -153,7 +151,9 @@
                   "api-reference/endpoint/get-campaign",
                   "api-reference/endpoint/get-campaign-pdf-analysis",
                   "api-reference/endpoint/get-credits",
-                  "api-reference/endpoint/send-campaign"
+                  "api-reference/endpoint/send-campaign",
+                  "api-reference/endpoint/create-inbox-test",
+                  "api-reference/endpoint/get-inbox-test-results"
                 ]
               }
             ]
