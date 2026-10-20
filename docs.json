@@ -70,6 +70,7 @@
             "group": "Members Tools",
             "pages": [
               "other-tools/inbox-placement-tester",
+              "other-tools/inbox-placement-monitor",
               "other-tools/mx-vision"
             ]
           },
@@ -155,13 +156,31 @@
                   "api-reference/endpoint/create-inbox-test",
                   "api-reference/endpoint/get-inbox-test-results"
                 ]
+              },
+              {
+                "group": "Inbox Placement Monitor",
+                "pages": [
+                  "api-reference/endpoint/monitor-get-seeds",
+                  "api-reference/endpoint/monitor-get-domains",
+                  "api-reference/endpoint/monitor-add-domain",
+                  "api-reference/endpoint/monitor-verify-domain",
+                  "api-reference/endpoint/monitor-remove-domain",
+                  "api-reference/endpoint/monitor-get-messages",
+                  "api-reference/endpoint/monitor-get-message",
+                  "api-reference/endpoint/monitor-get-summary",
+                  "api-reference/endpoint/monitor-get-usage",
+                  "api-reference/endpoint/monitor-get-alerts",
+                  "api-reference/endpoint/monitor-save-alert",
+                  "api-reference/endpoint/monitor-delete-alert"
+                ]
               }
             ]
           }
         ]
       }
     ]
-  },
+  }
+},
   "logo": {
     "light": "/logo/cclogorefresh50.png",
     "dark": "/logo/cclogorefreshwhite45.png",
