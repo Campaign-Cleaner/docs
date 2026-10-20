@@ -97,6 +97,7 @@
             "group": "Members Tools",
             "pages": [
               "other-tools/inbox-placement-tester",
+              "other-tools/inbox-placement-monitor",
               "other-tools/mx-vision"
             ]
           },
