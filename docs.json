@@ -1,5 +1,4 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Documentation",
   "colors": {
@@ -7,7 +6,35 @@
     "light": "#0067f4",
     "dark": "#054587"
   },
+  "logo": {
+    "light": "/logo/cclogorefresh50.png",
+    "dark": "/logo/cclogorefreshwhite45.png",
+    "href": "https://campaigncleaner.com"
+  },
   "favicon": "/logo/cc64.png",
+  "api": {
+    "openapi": "https://campaign-cleaner.github.io/swagger/campaigncleaner.yaml",
+    "mdx": {
+      "server": "https://api.campaigncleaner.com"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://campaigncleaner.com/tools/mail-tester/",
+        "label": "eMail Tester"
+      },
+      {
+        "href": "https://campaigncleaner.com/email-deliverability-consultant.html",
+        "label": "Support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://members.campaigncleaner.com"
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -70,7 +97,6 @@
             "group": "Members Tools",
             "pages": [
               "other-tools/inbox-placement-tester",
-              "other-tools/inbox-placement-monitor",
               "other-tools/mx-vision"
             ]
           },
@@ -179,34 +205,5 @@
         ]
       }
     ]
-  }
-},
-  "logo": {
-    "light": "/logo/cclogorefresh50.png",
-    "dark": "/logo/cclogorefreshwhite45.png",
-    "href": "https://campaigncleaner.com"
-  },
-  "api": {
-    "openapi": "https://campaign-cleaner.github.io/swagger/campaigncleaner.yaml",
-    "mdx": {
-      "server": "https://api.campaigncleaner.com"
-    }
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "eMail Tester",
-        "href": "https://campaigncleaner.com/tools/mail-tester/"
-      },
-      {
-        "label": "Support",
-        "href": "https://campaigncleaner.com/email-deliverability-consultant.html"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://members.campaigncleaner.com"
-    }
   }
 }
